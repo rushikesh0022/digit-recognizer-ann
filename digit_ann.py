@@ -6,7 +6,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 # Load the MNIST dataset
-dat = pd.read_csv('/Users/rushikesh/Desktop/digit-recognizer/train.csv')
+dat = pd.read_csv('#add your location of your dataset')
 dat = np.array(dat)
 m, n = dat.shape
 np.random.shuffle(dat)  # Shuffle data to prevent training bias
